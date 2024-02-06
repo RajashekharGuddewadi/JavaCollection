@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class List1 {
@@ -9,6 +10,8 @@ public class List1 {
         names.add("Keshav");
         names.add("Parag");
         names.add("Raj");
+        System.out.println(names);
+        Collections.sort(names);
         System.out.println(names);
 
         LinkedList<Integer> num = new LinkedList<>();

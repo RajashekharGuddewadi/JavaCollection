@@ -4,7 +4,6 @@ import java.util.TreeSet;
 public class Set1 {
     public static void main(String[] args) {
         HashSet<String> name = new HashSet<>();
-
         name.add("Raj");
         name.add("Kartik");
         name.add("Keshav");
@@ -20,14 +19,11 @@ public class Set1 {
         System.out.println(num);
 
         TreeSet<String> names = new TreeSet<>();
-
         names.add("Raj");
         names.add("Kartik");
         names.add("Keshav");
         names.add("Raj");
         System.out.println(names);
-
-
 
     }
 }

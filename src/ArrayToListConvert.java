@@ -7,6 +7,7 @@ public class ArrayToListConvert {
         String[] names ={"Raj","Kartik","Parag","Parth"};
         System.out.println("Print Array : "+ Arrays.toString(names));
         List<String> lname = new ArrayList<>();
+
         for(String friends:names){
             lname.add(friends);
         }

@@ -25,5 +25,9 @@ public class LinkedDemo {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
+
+        for(String fruit:fruits){
+            System.out.println(fruit);
+        }
     }
 }

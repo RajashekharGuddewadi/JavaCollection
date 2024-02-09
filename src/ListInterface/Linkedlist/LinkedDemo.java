@@ -29,5 +29,7 @@ public class LinkedDemo {
         for(String fruit:fruits){
             System.out.println(fruit);
         }
+
+
     }
 }

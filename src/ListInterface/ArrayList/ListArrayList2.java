@@ -1,4 +1,4 @@
-package ListInterface;
+package ListInterface.ArrayList;
 
 import java.util.*;
 public class ListArrayList2 {

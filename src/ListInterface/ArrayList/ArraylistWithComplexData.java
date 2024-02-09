@@ -1,4 +1,4 @@
-package ListInterface;
+package ListInterface.ArrayList;
 import java.util.ArrayList;
 class Student{
     String name;
